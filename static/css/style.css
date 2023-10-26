@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    color: #4CAF50;
+}
+button {
+    position: relative;
+    background-color: transparent; /* 背景色 */
+    color: #4CAF50; /* 文字色 */
+    padding: 15px 32px; /* パディング */
+    text-align: center; /* 文字のアライメント */
+    text-decoration: none; /* 文字装飾 */
+    display: inline-block; /* ボタンの表示方法 */
+    font-size: 25px; /* フォントサイズ */
+    font-family: Arial, sans-serif; /* フォント */
+    margin: 10px; /* 外側の余白 */
+    cursor: pointer; /* カーソル */
+    border: 2px solid #4CAF50; /* 枠線 */
+    border-radius: 5px; /* ボタンの角丸 */
+}
+#button_wrapper{
+    width: 380px;
+    margin: auto;
+}
+#canvas_wrapper{
+	width:800px;
+	margin:0 auto;
+}
